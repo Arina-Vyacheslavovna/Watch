@@ -1,0 +1,524 @@
+html,
+body {
+  background-color: rgba(190, 133, 133, 0.014);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.contacts {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.header .contacts {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.header .contacts p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-size: 14px;
+}
+
+.header .header_body {
+  position: relative;
+  /* background-color: rgba(0, 0, 0, 0.397); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url(../images/maxresdefault.jpg);
+  background-size: auto;
+}
+
+.header .header_body .header_menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(11, 7, 8, 0.63);
+}
+
+.header .header_menu a {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.header .header_menu a p {
+  display: none;
+}
+
+.header .header_body .header_menu a img {
+  width: 200px;
+}
+
+.header_menu a:hover {
+  text-shadow: 0 0 20px white;
+  transition: 0.4s;
+}
+.header_menu img:hover {
+  box-shadow: 0 0 20px white;
+  transition: 0.4s;
+}
+
+.banner {
+  position: relative;
+  background: url(../images/0.png), url(../images/1001784407.png),
+    url(../images/maxresdefault.jpg);
+  background-size: 200px 200px, 200px 200px, auto;
+  background-position: 5% 20px, 95% 20px, 0 -280px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  /* box-shadow: 0 0 20px rgb(255, 255, 255); */
+}
+
+.banner_text_1 {
+  margin: auto;
+  margin-top: 40px;
+  width: 250px;
+  height: 60px;
+  display: table;
+  background-color: rgba(255, 255, 255, 0.699);
+}
+
+.banner_text_1 p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  color: black;
+}
+
+.banner_text_2 {
+  margin: auto;
+  margin-top: 10px;
+  width: 250px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.699);
+  display: table;
+}
+
+.banner_text_2 p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  color: black;
+}
+
+.banner_text_1:hover,
+.banner_text_2:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px white;
+  transition: 0.6s;
+}
+
+#marketing {
+  width: 100%;
+  margin: auto;
+}
+
+.marketing_content {
+  position: relative;
+}
+
+.marketing_content span {
+  background: rgba(199, 199, 199, 0.466);
+  color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  left: 20px;
+  bottom: 60px;
+  font-size: 25px;
+  width: 280px;
+  box-shadow: 0 0 10px white;
+  padding: 3px 5px;
+}
+
+#qualities_watch {
+  position: relative;
+  margin-top: 0;
+  background-image: url(../images/77248-space-darkness-lighting-light_emitting_diode-pattern-1920x1200.jpg);
+  background-size: cover;
+  height: 610px;
+}
+
+#qualities_watch span img {
+  width: 50px;
+}
+
+#qualities_watch span {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.548);
+  color: white;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 24px;
+}
+
+#qualities_watch span:hover {
+  background-color: rgba(255, 255, 255, 0.548);
+  color: black;
+}
+
+#qualities_watch span:nth-child(1) {
+  top: 50px;
+  left: 600px;
+}
+#qualities_watch span:nth-child(2) {
+  top: 140px;
+  left: 500px;
+}
+#qualities_watch span:nth-child(3) {
+  top: 230px;
+  left: 400px;
+}
+#qualities_watch span:nth-child(4) {
+  top: 320px;
+  left: 300px;
+}
+#qualities_watch span:nth-child(5) {
+  top: 410px;
+  left: 400px;
+}
+#qualities_watch span:nth-child(6) {
+  top: 500px;
+  left: 500px;
+}
+#qualities_watch span:nth-child(7) {
+  top: 590px;
+  left: 600px;
+}
+
+main {
+  position: relative;
+  text-align: center;
+  background: url(../images/abstract-technology-plexus-stylish-dynamic-digital-background-geometrical-shape-with-triangle-particles-futuristic-wallpaper_rl-zis07x_thumbnail-full01-1024x576.png);
+  background-size: contain;
+}
+
+main .catalog {
+  padding:50px 10px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.767);
+}
+
+main h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.main_catalog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  background: rgb(160, 148, 148);
+  margin-bottom: 20px;
+}
+
+.carusel {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+.main_catalog .product {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin:10px auto;
+  color: black;
+  /* margin: auto; */
+  background-color: rgba(223, 223, 223, 0.61);
+  border: 1px solid rgba(146, 146, 146, 0.527);
+  box-shadow: 0 0 10px rgba(105, 105, 105, 0.486);
+}
+
+.owl-carousel .product {
+  width: 300px;
+  margin: 15px;
+  color: black;
+  background-color: rgba(223, 223, 223, 0.61);
+  border: 1px solid rgba(146, 146, 146, 0.527);
+  box-shadow: 0 0 10px rgba(105, 105, 105, 0.486);
+}
+
+.main_catalog .product:hover {
+  box-shadow: 0 0 20px white;
+  transition: 0.5s;
+}
+
+.owl-carousel .product:hover {
+  box-shadow: 0 0 20px white;
+  transition: 0.5s;
+}
+
+.main_catalog .product a img {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.owl-carousel .product a img {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  margin: 5px;
+  margin: auto;
+}
+
+.main_catalog .product p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.owl-carousel .product p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.carusel + p {
+  width: 100px;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(173, 173, 173, 0.644);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+a {
+  color: black;
+}
+
+.carusel + p:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px white;
+}
+
+#marketing, #qualities_watch  {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.521);
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.content_poem:first-child {
+  width: 800px;
+  margin: auto;
+  background-image: url(../images/foto-chasy-budilnik-vremia-strelki.jpg);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.content_poem:first-child p {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.466);
+  font-size: 34px;
+  text-align: right;
+}
+
+.content_poem:last-child {
+  width: 800px;
+  margin: auto;
+  background-image: url(../images/vintage_analog_clock_full_screen_for_xwidget_by_jimking_d9qx8zl-pre.jpg);
+  background-size: cover;
+}
+
+.content_poem:last-child p {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.466);
+  font-size: 34px;
+}
+
+.reviews_content h1 {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.reviews_content h1 a {
+  color: white;
+
+}
+
+.reviews_content h1 + p {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.034);
+  box-shadow: 0 0 5px white;
+  padding: 15px;
+  margin: auto;
+
+  margin-bottom: 40px;
+}
+
+.persons_reviews {
+  width: 1100px;
+  background-color: rgba(255, 255, 255, 0.253);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.persons_reviews .review {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+.persons_reviews .review:hover {
+  box-shadow: 0 0 20px white;
+  transition: 0.7s;
+}
+
+.review > img {
+  width: 40px;
+  top: 10px;
+  position: absolute;
+  right: 30px;
+  border-radius:20px;
+  border: 1px solid rgba(0, 0, 0, 0.445);
+  box-shadow: 0 0 7px rgb(0, 0, 0);
+}
+
+.review p {
+padding-top: 50px;
+padding-bottom: 30px;
+line-height: 20px;
+}
+
+.review .person {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.review .person img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius:25px;
+  box-shadow: 0 0 17px rgb(0, 0, 0);
+}
+
+.review .person p {
+  padding: 0;
+}
+
+
+#reviews {
+  position: relative;
+  background: url(../images/abstract-technology-plexus-stylish-dynamic-digital-background-geometrical-shape-with-triangle-particles-futuristic-wallpaper_rl-zis07x_thumbnail-full01-1024x576.png);
+  background-size: cover;
+}
+
+.reviews_content {
+  background-color: rgba(0, 0, 0, 0.795);
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.content_text {
+  width: 1080px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* padding-bottom: 50px; */
+  margin: auto;
+  background-color:  rgba(0, 0, 0, 0.445);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.445);
+}
+
+.content_text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.content_text p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* section p {
+  padding-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+} */
+
+footer {
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+}
+
+.footer_content {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: white;
+  width: 800px;
+  margin: auto;
+}
+
+.footer_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer_menu a {
+  color: white;
+  margin: 20px;
+  font-size: 16px;
+}
